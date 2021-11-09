@@ -1,0 +1,15 @@
+version: '3'
+services:
+  server:
+    build: server
+    #command: run --host=0.0.0.0 --debugger --reload # gunicorn --worker-class gevent --workers 8 --bind 0.0.0.0:5000 wsgi:app  --max-requests 10000 --timeout 5 --keep-alive 5 --log-level info
+    ports:
+     - "5000:5000"
+    env_file:
+      - .env.local
+    volumes:
+      - ./server:/usr/src/app/
+      - ./anonymized_html:/usr/src/app/html/
+#volumes:
+#  openapi_db:
+#    external: true

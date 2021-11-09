@@ -1,0 +1,11 @@
+flask
+flask-restful
+gunicorn[gevent]
+apispec==4.4.2
+flask-apispec==0.11.0
+uuid
+simplejson
+presidio_analyzer
+presidio_anonymizer
+beautifulsoup4
+lxml
