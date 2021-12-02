@@ -1,5 +1,7 @@
 # Text-anonymizator
 
+![img](img/api.png)
+
 ---
 
 
@@ -18,4 +20,3 @@ Then go to ```{localhost}:5000/swagger-ui```.
 For testing html-anonymization use GET ```/api/anonymize-html``` method or  GET ```/api/anonymize``` for plain text.
 
 ---
-![img](img/api.png)
