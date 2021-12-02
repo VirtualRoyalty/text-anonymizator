@@ -13,6 +13,8 @@ To setup application run:
  $ cd text-anonymizator
  $ docker-compose up -d --build
 ```
-Then go to ```{localhost}:5000/swagger-ui:```. For testing use GET 
+Then go to ```{localhost}:5000/swagger-ui```. 
+
+For testing html-anonymization use GET ```/api/anonymize-html``` method or  GET ```/api/anonymize``` for plain text.
 
 ---
