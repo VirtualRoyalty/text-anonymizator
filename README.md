@@ -10,8 +10,8 @@ Impemplemented simple API via flask-restful for *web-pages (html)* anonymization
 To setup application run:
 
 ```
- cd text-anonymizator/
- docker-compose up -d --build
+ $ cd text-anonymizator
+ $ docker-compose up -d --build
 ```
 Then go to ```{localhost}:5000/swagger-ui:```. For testing use GET 
 
